@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(to right,#FFF1EA,#F5E6DC);
+    color:#4A4A4A;
+}
+
+h1,h2{
+    font-family:'Playfair Display',serif;
+    color:#7B1E3A;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    width:380px;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:14px;
+    margin:12px 0;
+    border-radius:30px;
+    border:1px solid #ccc;
+    font-size:15px;
+}
+
+button{
+    background:#7B1E3A;
+    color:white;
+    border:none;
+    padding:14px;
+    width:100%;
+    border-radius:30px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(226,93,100,0.5);
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 12px 25px rgba(212,175,55,0.6);
+}
+
+a{
+    color:#7B1E3A;
+    text-decoration:none;
+    font-weight:500;
+}
+
+a:hover{ color:#D4AF37; }
